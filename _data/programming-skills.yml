@@ -1,0 +1,12 @@
+- name: Python
+  percentage: ""
+  color: dark
+
+- name: Pandas 
+  percentage: ""
+  color:
+
+- name: Scikit-Learn
+  percentage: ""
+  color:
+

@@ -1,0 +1,35 @@
+- name: Adobe Photoshop
+  percentage: ""
+  color: info
+
+- name: Adobe Illustrator
+  percentage: ""
+  color: success
+
+- name: PySpark
+  percentage: ""
+  color: danger
+
+- name: R
+  percentage: ""
+  color: 
+
+- name: JavaScript
+  percentage: ""
+  color:
+
+- name: Tableau
+  percentage: ""
+  color:
+
+- name: MatLab
+  percentage: ""
+  color:
+
+- name: SQL 
+  percentage: ""
+  color:
+
+- name: TensorFlow
+  percentage: ""
+  color:
