@@ -1,94 +1,70 @@
-### Site Settings ###
-title               : Holly Erickson
-description         : >-
-                      Machine learning, model creating and providing predictions strength = Explanation with support and justification to make business decisions. Look forward to being a member of a passionate and coordinated team.
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
+# SITE CONFIGURATION
+title: Holly's Portfolio # your site title
+author: Holly Erickson # You :P
+description: > # Meta description of Homepage
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://holly-e.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
+# SEO PLUGIN
+social:
+  name: Your Name
+  links:
+    - https://twitter.com/BenBalter
+    - https://www.facebook.com/ben.balter
+    - https://www.linkedin.com/in/BenBalter
+    - https://plus.google.com/+BenBalter
+    - https://github.com/benbalter
+    - https://keybase.io/benbalter
 
-### Plugins ###
-plugins:
-  - jemoji
+# THEME SETTINGS
+navigation: # Navigation links
+  - {name: 'Portfolio', link: '/'}
+  - {name: 'About', link: '/about'}
+  - {name: 'Contact', link: '/contact'}
 
+tagline: Data scientist; creating models to help you make business decisions based on the data.               
 
-### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/tags.html
-  - pages/404.html
-  - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
+hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
+email: erickson.holly@icloud.com # email for form submission
 
-### Author Info ###
-author:
-  name              : Holly Erickson
-  image             : https://i.imgur.com/1dJhX9g.jpg
-# behance           : your_username
-# dribbble          : your_username
-  email             : erickson.holly@icloud.com
-# facebook          : your_username
-  github            : your_username
-# gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
-  linkedin          : your_username
-# medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-# twitter           : your_username
-# vimeo             : your_username
-# youtube           : your_channel_name
+#twitter_username: # jan_czizikow  replace with your_twitter_username or comment to remove link from footer
+github_username:  holly-e # replace with your_github_username or comment to remove link from footer
+linkedin_username: in/holly-erickson-300/ # replace with your_instagram_username or comment to remove link from footer
 
+disqus:
+  shortname: janczizikow # to enable comments replace with your_disqus_shortname
 
-### Posts ###
-permalink: /blog/:title
+# google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
 
+service_worker: true
 
-### Collections ###
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
-
-
-### Disqus ###
-disqus: your-short-name-disqus                          # Your website Shortname on disqus
-
-
-### Analytics ###
-analytics:
-  enabled: false                                        # Set true to enable analytics
-  google:
-    tracking_id: your-google-tracking-id
-
-
-### Defaults for collections ###
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
-
-### Exclude from processing ###
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge # or pygments or null
+# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
 exclude:
   - README.md
-  - CONTRIBUTING.md
-  - LICENSE
-  - "*.log"
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
