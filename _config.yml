@@ -25,7 +25,7 @@ navigation: # Navigation links
   - {name: 'About', link: '/about'}
   - {name: 'Contact', link: '/contact'}
 
-tagline: Data scientist; creating models to help you make business decisions based on the data.               
+tagline: Data scientist. I create models to help understand the world around us, for decisions based on the data.               
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
