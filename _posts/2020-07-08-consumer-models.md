@@ -40,8 +40,8 @@ was the only feature the was in the top 10 for all 5 feature selection methods.
 
 Finally, to make the predictions I used K Nearest Neighbor, Random Forest, Logistic Regression
 and a Multi-layer Perceptron classifier. I used sci-kit learn’s Gridsearch CV for hyperparameter
-tuning. KNN, random forest, and the MLP classifer performed the best on my cross-validation
+tuning. KNN, Random Forest, and the MLP Classifer performed the best on my cross-validation
 set, so I fed the results for these three into a voting classifer, which uses predicted class labels
-for majority rule voting
+for majority rule voting.
 
 <https://github.com/Holly-E/Hotel_Predictions>
