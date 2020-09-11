@@ -10,15 +10,15 @@ Most Frequently Used Skills:
 - Scikit-Learn
 
 Additional Skills:
-- TensorFlow
-- Tableau
-- Spark
-- MatLab
-- SQL 
 - AWS
-- Matplotlib / Seaborn
-- R
 - JavaScript / HTML / CSS
+- MatLab / Matplotlib 
+- R
+- Seaborn
+- Spark
+- SQL 
+- Tableau
+- TensorFlow
 
 Education:
 - Master of Science in Data Science: Bellevue University (completed September 2020). 
