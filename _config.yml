@@ -1,6 +1,8 @@
 # SITE CONFIGURATION
 title: Holly's Portfolio # your site title
-author: Holly Erickson # You :P
+# Site Author
+author: Holly Erickson 
+avatar: /assets/img/AvatarPicture.JPG
 description: > # Meta description of Homepage
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
