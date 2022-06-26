@@ -31,7 +31,7 @@ tagline: Data scientist. I create models to help understand the world around us,
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
-email: erickson.holly@icloud.com # email for form submission
+email: holly.data.scientist@gmail.com # email for form submission
 
 #twitter_username: # jan_czizikow  replace with your_twitter_username or comment to remove link from footer
 github_username:  holly-e # replace with your_github_username or comment to remove link from footer
